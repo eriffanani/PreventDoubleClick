@@ -1,5 +1,5 @@
 # Prevent Double Click
-Avoid your click view from double click which will produce a bug
+Avoid your click view from double click which will produce a bug.
 
 ## Installation
 #### repositories
@@ -26,6 +26,23 @@ PreventDoubleClick {
 }
 ```
 
+### Custom Interval
+The button can be re-clicked after the specified interval is completed. The default interval is 600 milliseconds.
+* Java
+```java
+long interval = 1000L; // 1 seconds
+new PreventDoubleClick(interval, () -> {
+    // TODO ACTION
+});
+```
+
+* Kotlin
+```kotlin
+val interval = 1000L // 1 seconds
+PreventDoubleClick(interval) {
+    // TODO ACTION
+}
+```
 ### Example use
 * Java Function
 ```java
