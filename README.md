@@ -26,7 +26,15 @@ PreventDoubleClick {
 }
 ```
 
+### Output
+* Normal Button
+<img width="300px" src="https://user-images.githubusercontent.com/26743731/197451760-bb131aaf-e06c-46c4-b00d-01128a49073e.gif"/>
+
+* Prevent Double Click
+<img width="300px" src="https://user-images.githubusercontent.com/26743731/197451841-ac431afc-5736-4520-b87c-1540fb28c64b.gif"/>
+
 ### Custom Interval
+
 The button can be re-clicked after the specified interval is completed. The default interval is 600 milliseconds.
 * Java
 ```java
