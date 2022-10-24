@@ -54,7 +54,7 @@ public void onClickMyButton() {
 ```
 * Java View Click Listener
 ```java
-myButton..setOnClickListener(view -> {
+myButton.setOnClickListener(view -> {
     new PreventDoubleClick(() -> {
         // TODO ACTION
     });
