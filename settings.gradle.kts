@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "PreventDoubleClick"
-include ':app'
-include ':SingleClick'
+include(":app")
+include(":SingleClick")

@@ -23,14 +23,12 @@ class MainActivity : AppCompatActivity() {
 
         val btn: Button = findViewById(R.id.btn)
         btn.setOnClickListener {
-            PreventDoubleClick {
-                countNumber()
-            }
+            countNumber()
         }
 
         val btn2: Button = findViewById(R.id.btn2)
         btn2.setOnClickListener {
-            PreventDoubleClick {
+            PreventDoubleClick(1000) {
                 countNumber()
             }
         }
